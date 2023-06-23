@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffff;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 65px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  28px 28px 30px #e8e8e8,
+                -28px -28px 30px #ffffff;
+}
+
+div.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+div.container img {
+    width: 30px;
+    height: 30px;
+    margin-inline: 17px;
+    border-radius: 50%;
+}
+
+div.container img:hover {
+    filter: invert(51%) sepia(56%) saturate(1633%) hue-rotate(305deg) brightness(101%) contrast(91%);
+}
+
+.color {
+    filter: invert(51%) sepia(56%) saturate(1633%) hue-rotate(305deg) brightness(101%) contrast(91%);
+    scale: 1.3;
+}
